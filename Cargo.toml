@@ -1,0 +1,18 @@
+[package]
+name = "lint_ebi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "lint_ebi"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.22.0"
+rayon = "1.10.0"
+regex = "1.11.0"
+toml = "0.8.19"
+walkdir = "2.5.0"
+serde_derive = "1.0.213"
+serde = "1.0.213"
